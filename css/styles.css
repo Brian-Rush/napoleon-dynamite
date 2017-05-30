@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*@font-face {
+  font-family: 'Sketch-Handwriting';
+  src: url('../fonts/Sketch-Handwriting.otf');
+}*/
+
+
+h1 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+li {
+  list-style: none;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 33%;
+}
+
+img {
+  width: 100%;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0vh;
+  left: 0;
+  margin: 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+
+}
+
+@media screen and (max-width:600px) {
+
+  ul {
+    width: 100%;
+  }
+
+  li {
+    float: left;
+
+  }
+}
+
+@media screen and (min-width:600px) and (max-width:1300px) {
+
+  .nav {
+    float: left;
+    width: 25%;
+  }
+
+  .gifs {
+    float: right;
+    width: 70%;
+  }
+}
